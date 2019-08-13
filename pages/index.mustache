@@ -1,0 +1,27 @@
+---
+title: Uzu
+---
+
+<p>Uzu is a static site generator with built-in web server, file modification
+watcher, live reload, i18n, themes, multi-page support, inject external data via
+local Perl 6 module, and external pre/post command execution. You write your
+posts using HTML and save them as text files on your
+hard-drive. Uzu then takes them, and creates a full HTML site for you.</p>
+
+<h1>Features</h1>
+
+<ul>
+<li><strong>Easy to use</strong>: Based on existing static site generator conventions</li>
+<li><strong>Built-in development webserver</strong>: Test your modifications (<a href="http://localhost:3000" rel="nofollow">http://localhost:3000</a>) as you work</li>
+<li><strong>Auto Re-render</strong>: <code>uzu watch</code> monitors the <code>theme/[your-theme]/</code>, <code>pages/</code>, <code>partials/</code>, and <code>i18n/</code> folders for modifications and auto-renders to build</li>
+<li><strong>Live reload</strong>: <code>uzu watch</code> automatically reloads the browser when a re-render occurs</li>
+<li><strong>Templating</strong>: Supports <a href="#template6">Template6</a> and <a href="#mustache">Mustache</a> template engines.</li>
+<li><strong>i18n support</strong>: Use YAML to define each language in the <code>i18n/</code> folder (e.g. <code>i18n/en.yml</code>)</li>
+<li><strong>Page / layout support</strong>: Generate individual pages wrapped in the same theme layout</li>
+<li><strong>Extended variables</strong>: Inject dynamically generated data into project via external <code>Perl 6</code> module.</li>
+<li><strong>Pre/Post commands</strong>: Trigger external commands to execute before or after build.</li>
+<li><strong>YAML variables</strong>: Create page-specific and partial-specific variables as a <a href="#page-variables">YAML block</a> at the top of any page or partial template.</li>
+<li><strong>Trigger rebuild manually</strong>: Press <code>r enter</code> to initiate a full rebuild. This is useful for when you add new files or modify files that are not actively monitored by <code>uzu</code>, e.g. images, css, fonts, or any non <code>.tt</code>, <code>.mustache</code>, or <code>.yml</code> files</li>
+<li><strong>Actively developed</strong>: More features coming soon (e.g. more tests, AWS, Github Pages, SSH support...)</li>
+</ul>
+

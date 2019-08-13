@@ -1,0 +1,13 @@
+<div id="sidebar">
+  {{#site.show-portrait}}
+  <img src="{{site.url}}{{site.base_url}}/images/logo.png"/>
+  {{/site.show-portrait}}
+
+  <ul>
+  	<li><a href="{{site.url}}{{site.base_url}}" style="color:#ff3b30; font-weight: bold">Home</a></li>
+    {{#site.navigation}}
+    <li><a href="{{site.url}}{{site.base_url}}/{{nav-url}}"
+    style="color:#777;">{{nav-name}}</a></li>
+    {{/site.navigation}}
+  </ul>
+</div>

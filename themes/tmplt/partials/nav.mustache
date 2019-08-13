@@ -1,0 +1,20 @@
+<!-- appears only in smaller screen -->
+
+<div id="nav">
+    {{#site.show-portrait}}
+      <img src="{{site.url}}{{site.base_url}}/images/logo.png"/>
+        {{/site.show-portrait}}
+    {{/site.show-portrait}}
+  
+    <ul>
+    	<a href="{{site.url}}{{site.base_url}}" style="float: left;color:#ff3b30;
+      font-weight: bold">Home</a>
+
+      <!-- Navigation Pages -->
+      {{#site.navigation}}
+            &nbsp;&nbsp;
+            <a href="{{site.url}}{{site.base_url}}/{{nav-url}}"
+            style="color:#777;">{{nav-name}}</a>
+      {{/site.navigation}}
+    </ul>
+</div>

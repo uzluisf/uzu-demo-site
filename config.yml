@@ -1,0 +1,18 @@
+---
+language: en
+name: "Uzu"
+template_engine: mustache
+theme: tmplt
+
+project_root: ''
+url: "https://uzluisf.github.io"
+base_url: '/uzu-demo-site'
+show-portrait: true
+
+navigation:
+    - nav-name: Docs
+      nav-url: docs/
+    - nav-name: Authors
+      nav-url: authors/
+    - nav-name: License
+      nav-url: license/
