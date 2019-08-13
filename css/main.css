@@ -1,0 +1,281 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+* {
+    margin: 0;
+    padding: 0rem;
+    text-rendering: optimizeLegibility;
+    font-kerning: auto;
+    -webkit-font-smoothing: antialiased!important;
+    vertical-align: baseline;
+}
+
+html {
+	height: 100%;
+	background: #fff;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+    width: 100%;
+	max-width: 1000px;
+	min-height: 100%;
+	text-rendering: optimizeLegibility;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#main,
+#sidebar {
+    position: absolute;
+    top: 40px;
+}
+#main {
+    left: 280px;
+    width: 800px;
+}
+
+#main h2,
+#main h3,
+#main h4,
+#main h5,
+#main h6 {
+	line-height: 1.35;
+	margin-top: .6em;
+	margin-bottom: .6em;
+}
+
+#main h1 {
+	font-size: 1.6em;
+}
+
+#main h2 {
+	font-size: 1.4em;
+}
+
+#main h3 {
+	font-size: 1.2em;
+}
+
+#main h4 {
+	font-size: 1.1em;
+}
+
+#main h5,
+#main h6 {
+	font-size: 1em;
+}
+
+#main h1,#main h2,#main h3, #main h4, #main h5, #main h6 {
+    margin-bottom: 12px;
+}
+
+#main p {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 12px 0;
+}
+
+#main h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#sidebar {
+    left: 20px;
+    width: 200px;
+    padding: 20px 20px 0 0;
+    border-right: 1px solid #ccc;
+    text-align: right;
+}
+
+#sidebar h2 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+#sidebar li {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#nav {
+    display: none;
+    margin-bottom: 20px
+}
+
+#nav li {
+    display: inline;
+    margin-right: 7px
+}
+
+#nav img.logo {
+    width: 65px;
+    margin-bottom: 10px;
+}
+
+img.logo {
+    width: 113px;
+}
+
+*:focus {
+    outline: none;
+}
+
+footer {
+	display: block;
+    text-align: center;
+    font-size: 12px;
+	padding: .5rem 0 5.5rem 0;
+	border-top: .07em solid #eee;
+}
+
+aside {
+	font-size: .9em;
+	line-height: .9;
+	color: #7a8288;
+}
+
+aside em {
+	font-size: .7rem;
+}
+
+p {
+	margin-bottom: 1em;
+	line-height: 1.45;
+}
+
+ul,
+ol {
+	margin-bottom: 1em;
+	padding-left: 1em;
+}
+
+li {
+	line-height: 1.75em;
+	margin-left: .75em;
+}
+
+a { color: #5F8DD3; text-decoration: none; }
+a:active { color: #777; }
+a:hover { text-decoration: #000; }
+
+code,
+pre {
+    font-family: 'Source Code Pro', monospace;
+}
+
+code {
+	padding: .25em .25em;
+	background: #f8f8f8;
+	font-size: 90%;
+	margin-bottom: 20px;
+}
+
+pre {
+	font-size: .9rem;
+	background: #f8f8f8;
+	padding: 1em;
+	margin-bottom: 20px;
+	overflow-x: auto;
+	vertical-align: text-bottom;
+}
+
+table {
+	margin-bottom: 1.5rem;
+	border: 1px solid #e5e5e5;
+	border-collapse: collapse;
+	width: 95%;
+}
+
+td,
+th {
+	text-align: left;
+	padding: .25rem .5rem;
+	border: 1px solid #e5e5e5;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+	background-color: #f9f9f9;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+figcaption {
+	font-weight: 400;
+	font-style: italic;
+	font-size: .7em/1.52;
+	line-height: 1.3;
+	color: #666665;
+	outline: 0;
+	z-index: 300;
+	text-align: center;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+    width: 100%;
+    margin: 20px 5px;
+}
+
+@media only screen and (max-width: 800px){
+    #sidebar {
+        left: 0;
+        width: 190px;
+        padding: 20px 12px 0 0;
+    }
+
+    #main {
+        left: 214px;
+        width: 486px;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    #nav {
+        display: initial;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    #main {
+        left: 15px;
+        width: calc(100% - 30px);
+    }
+}
