@@ -26,7 +26,7 @@ After everything is properly setup:
 1. Clone the `source` branch and `cd` into `uzu-demo-site`
 
 ```
-$ git clone --single-branch --branch source git@github.com:uzluisf/uzu-demo-site.git
+$ git clone --single-branch --branch source https://github.com/uzluisf/uzu-demo-site.git
 $ cd uzu-demo-site
 ```
 
